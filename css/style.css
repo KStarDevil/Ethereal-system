@@ -69,8 +69,20 @@ h1, h2, h3, h4, h5,
 
 .aaa{
   cursor: not-allowed;
+  background: #262626;
+  border-radius: 50px;
   opacity: 0.5;
+  padding: 10px 80px;
+  color: white;
+  font-weight: 900;
+  border: 2px;
+  border-color: red;
 }
+/* .aaa:hover{
+  color: red;
+} */
+
+
 
 .btn {
   text-transform: uppercase;
@@ -1239,9 +1251,8 @@ a.call1{
 .imgsuc p{
   font-weight: bold;
   font-size: 20px;
-  margin-left: 50px;
 }
-
+  
 .imgsuc3 img{
   width: 40%;
   height: 100%;
