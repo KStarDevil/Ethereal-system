@@ -898,7 +898,27 @@ h1, h2, h3, h4, h5,
         background: #f89d13;
         color: #fff; }
 
-.bgimg {
+   .bgimg{
+     height: 500px;
+     background: #262626;
+     padding: 200px 0px;
+     
+   }
+   .bgimg h2 {
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 0;
+    font-weight: bold; }
+    @media (max-width: 991.98px) {
+      .bgimg h2 {
+        font-size: 2rem; } }
+  .bgimg a {
+    color: #fff;
+    text-decoration: underline; }
+    .bgimg a:hover {
+      text-decoration: none; }
+
+/* .bgimg {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -931,9 +951,11 @@ h1, h2, h3, h4, h5,
     color: #fff;
     text-decoration: underline; }
     .bgimg a:hover {
-      text-decoration: none; }
+      text-decoration: none; } */
 
 .footer-section {
+  background: #181818;
+  color: #fff;
   padding: 10px 0; }
   .footer-section p {
     font-size: 1rem; }
@@ -998,9 +1020,6 @@ h1, h2, h3, h4, h5,
 .about{
   width: 100%;
   height: 100%;
-}
-.copyright {
-  padding-bottom: 40px;
 }
 .service p {
   font-weight: 350;
@@ -1278,6 +1297,19 @@ a.call1{
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 900;
 }
+@media (min-device-width: 100px) {
+  .imgsuc img{
+    margin-left: 200px;
+  } 
+  .imgsuc p{
+    margin-left: 20px;
+  }
+}
+@media (min-device-width: 1000px) {
+  .imgsuc p{
+    margin-left: 110px;
+  }
+}
 
 @media (min-device-width: 100px) {
   .modal{
@@ -1333,3 +1365,78 @@ a.call1{
       margin-bottom: auto;
     }
     }
+    @media (min-device-width: 100px){
+      .followus h1{
+        text-align: left;
+      }
+      .followus i{
+        text-align: left;
+        margin: 0px 10px;
+      }
+      .link{
+        text-align: left;
+      }
+    }
+    @media (min-device-width: 1000px){
+      .followus i{
+        margin: 0px 20px;
+      }
+      .followus h1{
+        text-align: center;
+      }
+      .link{
+        text-align: center;
+      }
+
+    }
+    .followus .fa-facebook-square {
+      color: #4e4e4e;
+      font-size: 45px;
+    }
+    
+
+    .followus .fa-facebook-square:hover{
+      color: #3b5998;
+    }
+    .followus .fa-envelope{
+      color: #4e4e4e;      
+      font-size: 47px;
+    }
+    .followus .fa-envelope:hover{
+      color: #b23121;
+    }
+    .followus .fa-twitter{
+      color: #4e4e4e;
+      font-size: 45px;
+    }
+    .followus .fa-twitter:hover{
+      color: #00acee;
+    }
+    /* .followus .fa-envelope{
+      color: #4e4e4e;
+      padding: 0px 15px;
+    }
+    .fa-envelope{
+      font-size: 35px;
+    }
+    .fa-envelope:hover{
+      color: #b23121;
+    } */
+    
+    a.bck.rightToLeft.bck-on {
+      width: 60px;
+      border-radius: 50px;
+      height: 60px;
+      background: #ffa600;
+    }
+    a.bck.rightToLeft.bck-on i{
+      margin-top: 20px;
+    }
+    a.bck.rightToLeft.bck-on:hover{
+      background: transparent;
+      border: 1px solid;
+      border-color: #ffa600;
+      color: #ffa600;
+    }
+    
+    
