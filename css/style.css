@@ -1332,7 +1332,7 @@ a.call1{
   }
   }
 
-  @media (min-device-width: 400px) {
+  @media (min-device-width: 100px) {
     div.wrap-input1{
       width: 100%;
     }
@@ -1368,13 +1368,13 @@ a.call1{
       margin-bottom: auto;
     }
     }
-    @media (min-device-width: 400px){
+    @media (min-device-width: 100px){
       
       .fet{
         margin: 100px 0px 30px 0px; 
       }
       .fet p{
-        margin-left: 10px;
+        margin-left: 20px;
       }
       .link{
         text-align: center;
