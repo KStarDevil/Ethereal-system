@@ -986,7 +986,7 @@ h1, h2, h3, h4, h5,
   font-weight: bold; }
 
 .person p {
-  font-size: 15px; }
+  font-size: 15px; padding-bottom: 15px; }
 
 #contact-section .form-control {
   background: #fff; }
@@ -1299,13 +1299,16 @@ a.call1{
 }
 @media (min-device-width: 100px) {
   .imgsuc img{
-    margin-left: 200px;
+    margin-left: 120px;
   } 
   .imgsuc p{
-    margin-left: 20px;
+    margin-left: 10px;
   }
 }
 @media (min-device-width: 1000px) {
+  .imgsuc img{
+    margin-left: 200px;
+  }
   .imgsuc p{
     margin-left: 110px;
   }
@@ -1329,7 +1332,7 @@ a.call1{
   }
   }
 
-  @media (min-device-width: 100px) {
+  @media (min-device-width: 400px) {
     div.wrap-input1{
       width: 100%;
     }
@@ -1365,29 +1368,46 @@ a.call1{
       margin-bottom: auto;
     }
     }
-    @media (min-device-width: 100px){
-      .followus h1{
-        text-align: left;
+    @media (min-device-width: 400px){
+      
+      .fet{
+        margin: 100px 0px 30px 0px; 
       }
-      .followus i{
-        text-align: left;
-        margin: 0px 10px;
+      .fet p{
+        margin-left: 10px;
       }
       .link{
-        text-align: left;
+        text-align: center;
+      }
+      .link a{
+        margin: 0px 10px;
+      }
+      .followus h1{
+        text-align: center;
+      } 
+      .mb li{
+        text-align: center;
       }
     }
     @media (min-device-width: 1000px){
-      .followus i{
-        margin: 0px 20px;
+      .fet{
+        margin: 100px 0px 30px 0px; 
+      }
+      .fet p{
+        margin-left: 10px;
       }
       .followus h1{
         text-align: center;
       }
-      .link{
-        text-align: center;
+      .link li a{
+        margin-left: 0px;
       }
-
+      .link i{
+        margin-left: 10px;
+      }
+      .mb li{
+        text-align: left;
+      }
     }
     .followus .fa-facebook-square {
       color: #4e4e4e;
