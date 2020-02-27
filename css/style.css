@@ -1178,7 +1178,7 @@ a.call1{
 	100% { transform: translateY(0) }
 }
 
-// Params: $tstart = translate offset (start point), $tend = translate length (end point)
+/* // Params: $tstart = translate offset (start point), $tend = translate length (end point)
 @mixin generateNumAnimation($tstart, $tend) {
 	@keyframes fadeNumberDown-#{$tstart} {
 		0% {
@@ -1192,7 +1192,7 @@ a.call1{
 			opacity: 0;
 		}
 	}
-}
+} */
 
 #myBtn1 {
   display: none;
@@ -1373,8 +1373,8 @@ a.call1{
       .fet{
         margin: 100px 0px 30px 0px; 
       }
-      .fet p{
-        margin-left: 20px;
+      .fet h1{
+        font-size: 35px;
       }
       .link{
         text-align: center;
@@ -1409,28 +1409,60 @@ a.call1{
         text-align: left;
       }
     }
-    .followus .fa-facebook-square {
+    .link i{
+      margin: 0;
+    }
+    .followus .fa-facebook-f {
       color: #4e4e4e;
-      font-size: 45px;
+      font-size: 25px;
+      border-radius: 50%;
+      border: 1px solid;
+      padding: 10px 15px;
     }
     
 
-    .followus .fa-facebook-square:hover{
-      color: #3b5998;
+    .followus .fa-facebook-f:hover{
+      color: white;
+      border-color: #4e4e4e;
+      background: #3b5998
     }
     .followus .fa-envelope{
       color: #4e4e4e;      
-      font-size: 47px;
+      font-size: 25px;
+      padding: 10px;
+      border: 1px solid;
+      border-radius: 50%;
     }
     .followus .fa-envelope:hover{
-      color: #b23121;
+      color: white;
+      border-color: #4e4e4e;
+      background: #b23121;
     }
     .followus .fa-twitter{
       color: #4e4e4e;
-      font-size: 45px;
+      font-size: 25px;
+      padding: 10px;
+      border: 1px solid;
+      border-radius: 50%;
     }
     .followus .fa-twitter:hover{
-      color: #00acee;
+      color: white;
+      background: #00acee;
+      border-color: #4e4e4e;
+    }
+    .followus .fa-linkedin-in{
+      color: #4e4e4e;
+      font-size: 25px;
+      padding: 10px;
+      border: 1px solid;
+      border-radius: 50%;
+      /* object-fit: cover; */
+    }
+    .followus .fa-linkedin-in:hover{
+      color: white;
+      border-color: #4e4e4e;
+      background: #0e76a8;
+    
     }
     /* .followus .fa-envelope{
       color: #4e4e4e;
